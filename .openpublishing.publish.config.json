@@ -1,25 +1,22 @@
 {
-  "need_generate_pdf": true,
   "docsets_to_publish": [
     {
-      "docset_name": "d365F-O",
+      "docset_name": "e2e-d365F-O",
       "build_source_folder": "articles",
-      "build_output_subfolder": "d365F-O",
+      "build_output_subfolder": "e2e-d365F-O",
       "locale": "zh-cn",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content",
-        "ContentObject": "Toc"
+        "Conceptual": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [
     "live-sxs"
   ],
@@ -34,14 +31,8 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
       "path_to_root": "_repo.en-us",
-      "url": "https://github.com/MicrosoftDocs/Dynamics-365-Operations",
+      "url": "https://github.com/opse2epr/Dynamics-365-Operations",
       "branch": "live",
       "branch_mapping": {
         "live": "live",
@@ -49,16 +40,7 @@
       }
     }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish",
-      "Pdf"
-    ],
-    "eag": [
-      "Publish",
-      "Pdf"
-    ]
-  },
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
