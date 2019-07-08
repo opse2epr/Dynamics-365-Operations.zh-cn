@@ -21,17 +21,11 @@
   ],
   "notification_subscribers": [],
   "branches_to_filter": [
-    "live-sxs",
-    "live",
-    "docs-build-v3"
+    "live-sxs"
   ],
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
-  "contribution_branch_mappings": {
-    "live-sxs": "live",
-    "docs-build-v3-sxs":"docs-build-v3"
-  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
